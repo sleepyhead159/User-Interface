@@ -67,9 +67,104 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/*section_one ******/
+/*first_section ******/
+
+.navigation {
+	display:inline-block;
+	padding-bottom: 5%;
+	width: 60%;
+}
+
+.navigation a {
+	margin-left: 5%;
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	display:inline-block;
+	margin-left: 17%;
+	margin-top: 3%;
+}
+
+h4 {
+	border: 1px solid black;
+	width 20%;
+	height: auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.words {
+	margin-right: 15%;
+	margin-left: 10%;
+}
+
+/*logo_n_words ******/
 
 
-/*section_two ******/
+
+.words {
+	display: inline-block;
+	width: 30%;
+}
+
+.logo_n_words img {
+	display: inline-block;
+	width: 30%;
+
+}
+
+
+
+
+/*second_section ******/
+
+.features, .about {
+	display: inline-block;
+	width: 47%;
+	margin-top: 3%;
+}
+
+.about {
+	margin-left: 4%;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 10%;
+}
+
+.product {
+	margin: 0 4%;
+}
+
+.middle-img {
+	margin: 6% 0;
+	display: inline-block;
+	width: 100% auto;
+}
+
+.second_section {
+	border-bottom: 2px solid black;
+	margin-bottom: 10%;
+	border-top: 2px solid black;
+	margin-top: 10%;
+}
 
 /*footer *******/
+
+.copyright{
+	text-align: center;
+}
+
+.footer p{
+	line-height: 150%;
+	width: 15%;
+}
